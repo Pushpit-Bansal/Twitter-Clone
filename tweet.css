@@ -1,0 +1,101 @@
+.tweet{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    border-bottom: 1px solid var(--lightest-grey);
+}
+
+.tweet:hover{
+    cursor: pointer;
+    background-color: #ffffff0a;
+    opacity: 0.9;
+}
+.account-profile-pic{
+    width: 40px;
+    height: 40px;
+    transition: filter 0.15s;
+    border-radius: 50%;
+}
+
+.account-profile-pic:hover{
+    cursor: pointer;
+    filter: brightness(0.9);
+    
+}
+
+.tweet-senior{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.account-name{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.channel-name{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.post-time{
+    color: var(--lighter-grey);
+    flex: 1;
+    cursor: pointer;
+}
+
+.moree{
+    color: var(--lighter-grey);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.moree:hover{
+    cursor: pointer;
+    color: var(--aqua);
+}
+
+.post{
+    margin-top: 5px;
+    border: 1px solid var(--lightest-grey);
+    border-radius: 20px;
+}
+
+.numbers{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers div{
+    color: var(--lighter-grey);
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    gap: 5px;
+}
+
+.numbers div:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.numbers img{
+    width: 20px;
+    filter: invert(48%) sepia(9%) saturate(253%) hue-rotate(169deg) brightness(93%) contrast(90%);
+}
+
+.comments:hover, .stats:hover, .share:hover{
+    filter: invert(43%) sepia(59%) saturate(1787%) hue-rotate(182deg) brightness(103%) contrast(88%);
+}
+
+.retweet:hover{
+    filter: invert(35%) sepia(61%) saturate(2802%) hue-rotate(116deg) brightness(96%) contrast(80%);
+}
+
+.likes:hover{
+    filter: invert(30%) sepia(84%) saturate(3996%) hue-rotate(306deg) brightness(93%) contrast(90%);
+}

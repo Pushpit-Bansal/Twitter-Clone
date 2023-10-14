@@ -1,0 +1,26 @@
+:root {
+    --aqua:#1d9bf0;
+    --light-black:#16181c;
+    --lighter-black:#202327;
+    --grey:#333639;
+    --lighter-grey:#71767b;
+    --lightest-grey:#71767b6e;
+    --dark-aqua:#1088d8;
+  }
+
+
+*{
+    color: white;
+    font-family: roboto;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+#main-container{
+    width: 99vw;
+    display: grid;
+    grid-template-columns: 0.8fr 1.7fr 1fr;
+}
+

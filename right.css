@@ -1,0 +1,187 @@
+#right-shit{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#search-box{
+    padding: 4px 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 40px;
+    background-color: var(--lighter-black);
+    border-radius: 30px;
+}
+
+#search-box img{
+    margin-left: 5px;
+    width: 20px;
+    filter: invert(48%) sepia(9%) saturate(253%) hue-rotate(169deg) brightness(93%) contrast(90%);
+}
+
+#search-box input{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#premium{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: var(--light-black);
+}
+
+.header-font{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#premium-content{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#premium button{
+    margin-top: 5px;
+    width: 120px;
+    font-size: 17px;
+    padding: 12px;
+}
+
+#happening{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    border-radius: 20px;
+    padding: 15px 0px;
+    background-color: var(--light-black);
+}
+#happening > p{
+    margin:0px 20px;
+    margin-bottom:10px;
+}
+.trending-div{
+    width: 88%;
+    display: flex;
+    padding: 15px 20px;
+}
+
+.trending-div:hover{
+    background-color: var(--lighter-black);
+    cursor: pointer;
+}
+
+
+.trending-div div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.trending-where, .trending-posts{
+    color: grey;
+}
+
+.trending-what{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.trending-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.show_more{
+    color: var(--aqua);
+}
+
+#follow_who{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    border-radius: 20px;
+    padding: 15px 0px;
+    background-color: var(--light-black);
+}
+
+#follow_who >p{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.suggested_follower{
+    padding: 15px 20px;
+    width: 88%;
+    display: flex;
+    gap: 15px;
+}
+
+.suggested_follower:hover{
+    background-color: var(--lighter-black);
+    cursor: pointer;
+}
+.suggested_follower div{
+    flex: 1;
+}
+
+.anti-suiness{
+    color:grey;
+}
+.suiness{
+    font-weight: 500;
+    color: white;
+}
+.suggested_follower img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius:50%;  
+}
+
+.suggested_follower button{
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.suggested_follower button:hover{
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+#terms{
+    width: 100%;
+    text-align: left;
+}
+
+#terms p{
+    font-size: 14px;
+    color: grey;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+#terms p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

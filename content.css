@@ -1,0 +1,103 @@
+#main{
+    border-left: 1px solid var(--lightest-grey);
+    border-right: 1px solid var(--lightest-grey);
+}
+
+
+#home{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--lightest-grey);
+}
+
+#home> p{
+    margin: 10px 20px;
+}
+#home > div{
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#home > div div{
+    flex: 1;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+#home >div div:hover{
+    background-color: var(--light-black);
+    cursor: pointer;
+}
+
+#for_you p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: inline-block;
+    font-weight: 500;
+    border-bottom: 3px solid var(--aqua);
+}
+#following p{
+    padding: 15px 0px;
+    color: var(--lighter-grey);
+}
+
+#wassup{
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid var(--lightest-grey);
+}
+
+#wassup-senior{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+}
+
+#wassup-senior textarea{
+    text-wrap: wrap;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    font-size: 20px;
+    color:white;
+    height: 30px;
+    resize: none;
+}
+
+#wassup > img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#wassup-sub{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#wassup-junior{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+}
+
+#wassup-junior img{
+    width: 20px;
+    filter: invert(43%) sepia(59%) saturate(1787%) hue-rotate(182deg) brightness(103%) contrast(88%);
+    cursor: pointer;
+}
+
+
+#wassup-sub button{
+    width: 80px;
+    padding: 8px 0px;
+}
